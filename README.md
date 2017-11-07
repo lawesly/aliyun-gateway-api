@@ -1,5 +1,20 @@
-#### aliyun-gateway-api
-aliyun gateway api tools for nodejs
+## aliyun-gateway-api
+[Aliyun gateway api](https://www.aliyun.com/product/apigateway) tools for Node.js
+
+
+## Installation
+
+You can install it as dependency with npm.
+
+```sh
+$ # save into package.json dependencies with -S
+$ npm install aliyun-gateway-api -S
+```
+
+## Usage
+
+The apiClient authrozied by appid & appsecret.
+
 
 ### GET Data 
 
