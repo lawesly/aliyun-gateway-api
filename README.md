@@ -1,4 +1,9 @@
-## aliyun-gateway-api
+## aliyun-gateway-api 
+
+![npm-v](https://img.shields.io/npm/v/aliyun-gateway-api.svg?style=flat-square)
+![travis-ci](https://travis-ci.org/xihu-fm/aliyun-gateway-api.svg?branch=master)
+![npm-download](https://img.shields.io/npm/dm/aliyun-gateway-api.svg?style=flat-square)
+
 [Aliyun gateway api](https://www.aliyun.com/product/apigateway) tools for Node.js
 
 
