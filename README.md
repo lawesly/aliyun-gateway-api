@@ -18,7 +18,7 @@ The apiClient authrozied by appid & appsecret.
 
 ### GET Data 
 
-```
+```js
 var apiClient = require('aliyun-gateway-api').Client;
 var client = new apiClient(appKey, appSecret);
 
@@ -32,7 +32,7 @@ co(function*() {
 ```
 ### POST Form Data 
 
-```
+```js
 co(function*() {
     const data = yield client.post({
         url: 'http://aa25c9177bb54cf6a4c99ddad7eabba6-cn-shanghai.alicloudapi.com/checkMobile',
@@ -47,7 +47,7 @@ co(function*() {
 ```
 ### POST Json Data 
 
-```
+```js
 co(function*() {
 
     const data = yield client.post({
