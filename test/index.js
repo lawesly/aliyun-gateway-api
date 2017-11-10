@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 
-const appKey = 24652911;//process.env.APP_KEY;
-const appSecret = '50220c6e5474002d4a09c8d49390cebe';//process.env.APP_SECRET;
+const appKey = process.env.APP_KEY;
+const appSecret = process.env.APP_SECRET;
 
 const apiClient = require('../index.js').Client;
 const client = new apiClient(appKey, appSecret);
