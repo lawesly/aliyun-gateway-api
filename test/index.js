@@ -10,7 +10,7 @@ const client = new apiClient(appKey, appSecret);
 describe('apiClient request test', function() {
     it('apiClient GET', async function() {
         
-        const url = 'https://dm-81.data.aliyun.com/rest/160601/ip/getIpInfo.json?ip=210.75.225.254';
+        const url = 'http://aa25c9177bb54cf6a4c99ddad7eabba6-cn-shanghai.alicloudapi.com/getMobileInfo?mobile=15612345678';
         const data = await client.get(url);
         expect(200).to.be.equal(data.code);
     });
